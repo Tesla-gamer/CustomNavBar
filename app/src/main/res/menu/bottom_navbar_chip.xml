@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/bottom_nav_home"
+        android:title="Home"
+        android:icon="@drawable/ic_home"
+        app:cnb_backgroundColor="@color/colorPrimary"/>
+    <item android:id="@+id/bottom_nav_book"
+        android:title="Book"
+        android:icon="@drawable/ic_book"
+        app:cnb_backgroundColor="@color/colorPrimary"/>
+    <item android:id="@+id/bottom_nav_user"
+        android:title="User"
+        android:icon="@drawable/ic_user_profile"
+        app:cnb_backgroundColor="@color/colorPrimary"/>
+</menu>
